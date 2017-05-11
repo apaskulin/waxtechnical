@@ -29,6 +29,9 @@ config[:casper] = {
 # Page options, layouts, aliases and proxies
 ###
 
+activate :relative_assets
+set :relative_links, true
+
 # Per-page layout changes:
 #
 # With no layout
@@ -119,9 +122,6 @@ activate :syntax, line_numbers: false
 
 # Middleman-Sprockets - https://github.com/middleman/middleman-sprockets
 activate :sprockets
-
-activate :relative_assets
-set :relative_links, true
 
 # Methods defined in the helpers block are available in templates
 # helpers do
