@@ -20,7 +20,7 @@ config[:casper] = {
     twitter: 'https://twitter.com/waxtechnical'
   },
   navigation: {
-    "Home" => "/",
+    "Home" => "/waxtechnical/",
     "About" => "/waxtechnical/about/"
   }
 }
