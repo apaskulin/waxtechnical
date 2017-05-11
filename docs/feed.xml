@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wax Technical</title>
+  <subtitle>Thoughts on technical communication and documentation</subtitle>
+  <id>http://www.example.com</id>
+  <link href="http://www.example.com"/>
+  <link href="http://www.example.com/feed.xml" rel="self"/>
+  <updated>2017-05-09T17:00:00-07:00</updated>
+  <author>
+    <name>Alexandra P.</name>
+  </author>
+  <entry>
+    <title>Using the Positive Lens</title>
+    <link rel="alternate" href="http://www.example.com/2017/05/10/positive-lens/"/>
+    <id>http://www.example.com/2017/05/10/positive-lens/</id>
+    <published>2017-05-09T17:00:00-07:00</published>
+    <updated>2017-05-10T22:50:28-07:00</updated>
+    <author>
+      <name>Alexandra P.</name>
+    </author>
+    <summary type="html">This page is a placeholder for my thoughts about the positive lens
+</summary>
+  </entry>
+  <entry>
+    <title>Replicate this blog</title>
+    <link rel="alternate" href="http://www.example.com/2017/05/09/replicate-this-blog/"/>
+    <id>http://www.example.com/2017/05/09/replicate-this-blog/</id>
+    <published>2017-05-08T17:00:00-07:00</published>
+    <updated>2017-05-10T22:50:28-07:00</updated>
+    <author>
+      <name>Alexandra P.</name>
+    </author>
+    <summary type="html">This blog uses the awesome caper-middleman extension. Here&amp;rsquo;s how to
+start your own site in 5 minutes.
+</summary>
+  </entry>
+</feed>
