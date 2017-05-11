@@ -29,9 +29,6 @@ config[:casper] = {
 # Page options, layouts, aliases and proxies
 ###
 
-activate :relative_assets
-set :relative_links, true
-
 # Per-page layout changes:
 #
 # With no layout
@@ -141,8 +138,8 @@ configure :build do
   # Enable cache buster
   # activate :asset_hash
 
-  # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
+  set :relative_links, true
 
   # Ignoring Files
   ignore 'javascripts/_*'
