@@ -120,6 +120,9 @@ activate :syntax, line_numbers: false
 # Middleman-Sprockets - https://github.com/middleman/middleman-sprockets
 activate :sprockets
 
+activate :relative_assets
+set :relative_links, true
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
