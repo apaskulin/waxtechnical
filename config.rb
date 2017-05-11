@@ -21,7 +21,7 @@ config[:casper] = {
   },
   navigation: {
     "Home" => "/",
-    "About" => "/about/"
+    "About" => "/waxtechnical/about/"
   }
 }
 
