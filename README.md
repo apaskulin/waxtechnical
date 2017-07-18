@@ -13,13 +13,13 @@ gem install bundler
 gem install middleman
 ```
 
-Run locally and view at localhost:4567
+Run locally and view at [localhost:4567](http://localhost:4567/)
 
 ```
 middleman
 ```
 
-Build, commit, and deploy to github pages in /docs.
+Build, commit, and deploy to github pages in `/docs`.
 
 ```
 make publish
