@@ -5,10 +5,30 @@
   <id>http://www.example.com</id>
   <link href="http://www.example.com"/>
   <link href="http://www.example.com/feed.xml" rel="self"/>
-  <updated>2017-05-09T17:00:00-07:00</updated>
+  <updated>2017-07-16T17:00:00-07:00</updated>
   <author>
     <name>Alexandra P.</name>
   </author>
+  <entry>
+    <title>Plain Writing Resources</title>
+    <link rel="alternate" href="http://www.example.com/2017/07/17/toolkit/"/>
+    <id>http://www.example.com/2017/07/17/toolkit/</id>
+    <published>2017-07-16T17:00:00-07:00</published>
+    <updated>2017-07-17T17:51:35-07:00</updated>
+    <author>
+      <name>Alexandra P.</name>
+    </author>
+    <summary type="html">
+US Plain Writing Act of 2010
+
+
+US Federal Plain Language Guidelines - 2011
+PLAIN Principles of Plain Language
+Exercise Packet
+18F Plain Language Tutorial
+Toolkit for Making Written Material Clear and Effective by the Centers for Medicare and Medicaid
+</summary>
+  </entry>
   <entry>
     <title>Using the Positive Lens</title>
     <link rel="alternate" href="http://www.example.com/2017/05/10/positive-lens/"/>
