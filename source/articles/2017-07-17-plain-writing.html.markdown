@@ -29,6 +29,7 @@ With word lists:
 - [Simple Words Work Best by Bill Lampton](http://www.plainlanguage.gov/howto/wordsuggestions/simpleworksbest.cfm)
 - [Simple Words and Phrases by PLAIN](http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm)
 - [Writing Standards by the Federal Aviation Administration - 2003](https://www.faa.gov/documentlibrary/media/order/branding_writing/order1000_36.pdf)
+- [UK Plain English Campaign A to Z of alternative words](http://www.plainenglish.co.uk/files/alternative.pdf)
 
 ### Research
 
