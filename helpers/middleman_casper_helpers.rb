@@ -117,7 +117,7 @@ module MiddlemanCasperHelpers
     "#{blog.options.prefix.to_s}/"
   end
   def author_path
-    "#{blog.options.prefix.to_s}/author/#{blog_author.name.parameterize}/"
+    "#{blog.options.prefix.to_s}/waxtechnical/author/#{blog_author.name.parameterize}/"
   end
 
   def og_type
