@@ -14,3 +14,13 @@ and plain writing.
 ### Contact
 
 You can find me on twitter [@waxtechnical](https://twitter.com/waxtechnical)
+
+### Writing
+
+- [Aero-M Operation Manual](https://3dr.com/wp-content/uploads/2017/03/AeroM-Operation-Manual-v3.pdf), [3D Robotics], 2014
+- [IRIS Operation Manual](https://3dr.com/wp-content/uploads/2017/03/IRIS-Operation-Manual-v6.pdf), [3D Robotics], 2014
+- [CHDK Camera Control Tutorial](http://ardupilot.org/copter/docs/common-chdk-camera-control-tutorial.html), [ArduPilot Open Source Autopilot], 2013
+- [Video Games, New Media, and Revolutionary Narratives](https://apgameset.wordpress.com/), 2011
+
+[3D Robotics]: https://3dr.com/
+[ArduPilot Open Source Autopilot]: http://ardupilot.org/
