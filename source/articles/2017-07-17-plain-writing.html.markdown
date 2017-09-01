@@ -5,7 +5,7 @@ tags:
 layout: post
 ---
 
-![](images/plain-law.png)
+![Plain Writing Act of 2010](images/plain-law.png)
 <sup>[US Plain Writing Act of 2010](https://www.gpo.gov/fdsys/pkg/PLAW-111publ274/pdf/PLAW-111publ274.pdf)</sup>
 
 ### Government Publications
@@ -22,7 +22,7 @@ Exercise Packet](http://www.plainlanguage.gov/resources/for_trainers/plainFiles/
 - [A Plain English Handbook by the Securities and Exchange Commission - 1998](https://www.sec.gov/pdf/handbook.pdf)
 - [Writing Style Guide and Preferred Usage for Issuances by the Department of Defence](http://www.esd.whs.mil/Portals/54/Documents/DD/iss_process/Writing_Style_Guide.pdf?ver=2017-06-20-094217-273)
 
-With word lists:
+Publications with lists of words to avoid:
 
 - [Action Officer Staff Writing by the Army Training and Doctrine Command](http://www.esd.whs.mil/Portals/54/Documents/DD/plain_language/ActionOfficer_StaffWriting.pdf?ver=2017-04-04-163823-647)
 - [UK Government Digital Service: Words to Avoid](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)
@@ -34,5 +34,9 @@ With word lists:
 ### Research
 
 - [Putting Plain Language into Practice by Aggie Brockman - 2004](http://www.rqis.org/wp-content/uploads/2014/08/Putting-plain-language-into-practice.pdf)
+
+### Linters
+
+- [Proselint](https://github.com/amperser/proselint)
 
 > [Add a resource on github](https://github.com/apaskulin/waxtechnical/blob/master/source/articles/2017-07-17-plain-writing.html.markdown)
