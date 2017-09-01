@@ -1,0 +1,14 @@
+---
+title: A Pattern Language for Documentation
+date: 2017-09-01
+tags: 
+layout: post
+---
+
+![A Pattern Language](images/patterns.png)
+<sup>[A Pattern Language: Towns, Buildings, Construction by Christopher Alexander, Sara Ishikawa, and Murray Silverstein](https://books.google.com/books/about/A_Pattern_Language.html?id=hwAHmktpk5IC)</sup>
+
+I've put together some research into using the concept of design patterns for documentation.
+I'm also using this content to experiment with Phabricator's wiki, ticketing, and blog tools.
+
+To see the [dashboard](https://doc-platform.phacility.com/), create a free account with [Phacility](https://www.phacility.com/).
