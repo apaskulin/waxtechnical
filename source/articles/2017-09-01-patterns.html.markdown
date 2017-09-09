@@ -11,4 +11,4 @@ layout: post
 I've put together some research into using the concept of design patterns for documentation.
 I'm also using this content to experiment with Phabricator's wiki, ticketing, and blog tools.
 
-To see the [dashboard](https://doc-platform.phacility.com/), create a free account with [Phacility](https://www.phacility.com/).
+Check out the [dashboard](https://doc-platform.phacility.com/).
