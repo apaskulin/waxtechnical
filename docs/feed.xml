@@ -5,10 +5,30 @@
   <id>http://www.example.com</id>
   <link href="http://www.example.com"/>
   <link href="http://www.example.com/feed.xml" rel="self"/>
-  <updated>2017-08-31T17:00:00-07:00</updated>
+  <updated>2017-10-06T17:00:00-07:00</updated>
   <author>
     <name>Alexandra P.</name>
   </author>
+  <entry>
+    <title>GitHub for Writers</title>
+    <link rel="alternate" href="http://www.example.com/2017/10/07/github-for-writers/"/>
+    <id>http://www.example.com/2017/10/07/github-for-writers/</id>
+    <published>2017-10-06T17:00:00-07:00</published>
+    <updated>2017-10-09T22:40:18-07:00</updated>
+    <author>
+      <name>Alexandra P.</name>
+    </author>
+    <summary type="html">How to use GitHub as a documentation tool, using only your web browser
+
+What is Github?
+
+Github is a version control system for code, documentation, and issue tracking.
+Like Bitbucket and GitLab, GitHub is based on the command-line tool, git.
+
+
+Github
+</summary>
+  </entry>
   <entry>
     <title>A Pattern Language for Documentation</title>
     <link rel="alternate" href="http://www.example.com/2017/09/01/patterns/"/>
@@ -63,5 +83,16 @@ We nevertheless concluded that the materials needed to change to fit expectation
 
 When users shifted
 </summary>
+  </entry>
+  <entry>
+    <title>The Surrealist Autobiography: Epic and Lightness in Anne Carson and CAConrad </title>
+    <link rel="alternate" href="http://www.example.com/2010/03/17/surrealist-autobiography/"/>
+    <id>http://www.example.com/2010/03/17/surrealist-autobiography/</id>
+    <published>2010-03-16T17:00:00-07:00</published>
+    <updated>2017-09-17T21:08:26-07:00</updated>
+    <author>
+      <name>Alexandra P.</name>
+    </author>
+    <summary type="html">The language poets that preceded Anne Carson and CAConrad preached that form is only ever an extension of content. But while Charles Olson and John Cage took this idea to its most minute levels-deconstructing language itself-Carson and Conrad invert their</summary>
   </entry>
 </feed>

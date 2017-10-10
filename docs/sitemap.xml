@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.example.com/about/index.html</loc>
-    <lastmod>2017-09-08T18:34:03-07:00</lastmod>
+    <lastmod>2017-10-09T22:41:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.example.com/2010/03/17/surrealist-autobiography/index.html</loc>
+    <lastmod>2017-09-17T21:08:26-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -25,20 +31,26 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/index.html</loc>
-    <lastmod>2017-09-08T18:34:03-07:00</lastmod>
+    <loc>http://www.example.com/2017/10/07/github-for-writers/index.html</loc>
+    <lastmod>2017-10-09T22:40:18-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.example.com/index.html</loc>
-    <lastmod>2017-09-08T18:34:03-07:00</lastmod>
+    <lastmod>2017-10-09T22:41:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.example.com/index.html</loc>
+    <lastmod>2017-10-09T22:41:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.example.com/author/alexandra-p/index.html</loc>
-    <lastmod>2017-09-08T18:34:03-07:00</lastmod>
+    <lastmod>2017-10-09T22:41:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
