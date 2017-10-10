@@ -71,14 +71,14 @@ changes to the master branch. Now you can delete the branch that you just
 merged; those changes are now in master.
 
 #### Contribute to open source
-You can contribute to the documentation for an open-source project using the workflow to [make changes and request a review](#make-changes-and-request-a-review).
+You can contribute to the documentation for an open-source project using the workflow to make changes and request a review.
 
 When making changes to a read-only repository, GitHub creates a fork, or copy, of the original repository automatically.
 You'll see this warning:
 
 <img alt="Screenshot of github.com showing warning for read-only access to a repository" src="/images/github-warning.png" width="800px">
 
-Continue to follow the steps to [make changes and request a review](#make-changes-and-request-a-review).
+Continue to follow the steps to make changes and request a review.
 The project maintainers will respond and, hopefully, merge your pull request.
 
 ## Learn Git
