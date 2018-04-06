@@ -13,7 +13,7 @@ and plain writing.
 
 ### Contact
 
-You can find me on twitter [@waxtechnical](https://twitter.com/waxtechnical) and github [@apaskulin](https://github.com/apaskulin)
+You can find me on Twitter [@waxtechnical](https://twitter.com/waxtechnical) and GitHub [@apaskulin](https://github.com/apaskulin)
 
 ### Writing
 
