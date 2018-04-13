@@ -7,11 +7,11 @@ layout: post
 
 How to use [GitHub](https://github.com) as a documentation tool, using only your web browser
 
-## What is Github?
-Github is a version control system for code, documentation, and issue tracking.
+## What is GitHub?
+GitHub is a version control system for code, documentation, and issue tracking.
 Like [Bitbucket](https://bitbucket.org/) and [GitLab](https://about.gitlab.com/), GitHub is based on the command-line tool, git.
 
-- Github homepage: [github.com](https://github.com/)
+- GitHub homepage: [github.com](https://github.com/)
 - My homepage: [github.com/apaskulin](https://github.com/apaskulin)
 - [Create a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/)
 
