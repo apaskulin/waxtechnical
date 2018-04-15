@@ -5,10 +5,39 @@
   <id>http://www.example.com</id>
   <link href="http://www.example.com"/>
   <link href="http://www.example.com/feed.xml" rel="self"/>
-  <updated>2017-10-06T17:00:00-07:00</updated>
+  <updated>2018-04-14T17:00:00-07:00</updated>
   <author>
     <name>Alexandra P.</name>
   </author>
+  <entry>
+    <title>How to Create Issue Templates in GitHub</title>
+    <link rel="alternate" href="http://www.example.com/2018/04/15/github-issue-templates/"/>
+    <id>http://www.example.com/2018/04/15/github-issue-templates/</id>
+    <published>2018-04-14T17:00:00-07:00</published>
+    <updated>2018-04-15T11:59:59-07:00</updated>
+    <author>
+      <name>Alexandra P.</name>
+    </author>
+    <summary type="html">Issue templates can help users include the right information in their issue and save time for maintainers.
+
+There are two ways to create issue templates in GitHub:
+
+
+an ISSUE_TEMPLATE.md file that prescribes what should appear anytime someone selects
+</summary>
+  </entry>
+  <entry>
+    <title>Advanced Formatting in GitHub Markdown</title>
+    <link rel="alternate" href="http://www.example.com/2018/04/13/advanced-github-markdown/"/>
+    <id>http://www.example.com/2018/04/13/advanced-github-markdown/</id>
+    <published>2018-04-12T17:00:00-07:00</published>
+    <updated>2018-04-15T11:59:59-07:00</updated>
+    <author>
+      <name>Alexandra P.</name>
+    </author>
+    <summary type="html">Check out this gist for a helpful set of HTML tags and other tricks to make your GitHub Markdown documents easier to use.
+</summary>
+  </entry>
   <entry>
     <title>GitHub for Writers</title>
     <link rel="alternate" href="http://www.example.com/2017/10/07/github-for-writers/"/>
@@ -83,16 +112,5 @@ We nevertheless concluded that the materials needed to change to fit expectation
 
 When users shifted
 </summary>
-  </entry>
-  <entry>
-    <title>The Surrealist Autobiography: Epic and Lightness in Anne Carson and CAConrad </title>
-    <link rel="alternate" href="http://www.example.com/2010/03/17/surrealist-autobiography/"/>
-    <id>http://www.example.com/2010/03/17/surrealist-autobiography/</id>
-    <published>2010-03-16T17:00:00-07:00</published>
-    <updated>2017-09-17T21:08:26-07:00</updated>
-    <author>
-      <name>Alexandra P.</name>
-    </author>
-    <summary type="html">The language poets that preceded Anne Carson and CAConrad preached that form is only ever an extension of content. But while Charles Olson and John Cage took this idea to its most minute levels-deconstructing language itself-Carson and Conrad invert their</summary>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.example.com/about/index.html</loc>
-    <lastmod>2018-04-13T11:27:43-07:00</lastmod>
+    <lastmod>2018-04-15T12:00:51-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -37,20 +37,44 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/index.html</loc>
-    <lastmod>2018-04-13T11:27:43-07:00</lastmod>
+    <loc>http://www.example.com/2018/04/13/advanced-github-markdown/index.html</loc>
+    <lastmod>2018-04-15T11:59:59-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.example.com/2018/04/15/github-issue-templates/index.html</loc>
+    <lastmod>2018-04-15T11:59:59-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.example.com/index.html</loc>
-    <lastmod>2018-04-13T11:27:43-07:00</lastmod>
+    <lastmod>2018-04-15T12:00:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.example.com/index.html</loc>
+    <lastmod>2018-04-15T12:00:51-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.example.com/author/alexandra-p/index.html</loc>
-    <lastmod>2018-04-13T11:27:43-07:00</lastmod>
+    <lastmod>2018-04-15T12:00:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.example.com/page/2/index.html</loc>
+    <lastmod>2018-04-15T12:00:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.example.com/author/alexandra-p/page/2/index.html</loc>
+    <lastmod>2018-04-15T12:00:51-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

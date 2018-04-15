@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wax Technical: How to Create Issue Templates in GitHub</title>
+<meta content='Issue templates can help users include the right information in their issue and save time for maintainers. There are two ways to create issue te...' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<meta content='Wax Technical' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='How to Create Issue Templates in GitHub' property='og:title'>
+<meta content='Issue templates can help users include the right information in their issue and save time for maintainers. There are two ways to create issue te...' property='og:description'>
+<meta content='http://www.example.com/2018/04/15/github-issue-templates/' property='og:url'>
+<meta content='2018-04-15' property='article:published_time'>
+<meta content='summary' name='twitter:card'>
+<meta content='https://twitter.com/waxtechnical' name='twitter:site'>
+<meta content='How to Create Issue Templates in GitHub' name='twitter:title'>
+<meta content='Issue templates can help users include the right information in their issue and save time for maintainers. There are two ways to create issue te...' name='twitter:description'>
+<meta content='http://www.example.com/2018/04/15/github-issue-templates/' name='twitter:url'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="../../../../images/star.jpg" rel="icon" type="image/jpg" />
+<link href="../../../../stylesheets/application.css" rel="stylesheet" />
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/waxtechnical/'>Home</a>
+</li>
+<li class='nav-about' role='presentation'>
+<a href='/waxtechnical/about/'>About</a>
+</li>
+</ul>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>How to Create Issue Templates in GitHub</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2018-04-15'>
+15 April 2018
+</time>
+</section>
+</header>
+<section class='post-content'><p>Issue templates can help users include the right information in their issue and save time for maintainers.</p>
+
+<p>There are two ways to create issue templates in GitHub:</p>
+
+<ul>
+<li>an <code>ISSUE_TEMPLATE.md</code> file that prescribes what should appear anytime someone selects &ldquo;New Issue&rdquo;</li>
+<li>a customized link that can be placed in the README</li>
+</ul>
+
+<p>Links are more flexible, allowing you to customize the title and add labels.
+Links allow you to create multiple templates per repository and, when used, override a file-based template.</p>
+
+<h2>Creating a file</h2>
+
+<p>From the main page of your repository, select &ldquo;Create new file&rdquo; and create a file called <code>ISSUE_TEMPLATE.md</code>.
+Add the markdown you&rsquo;d like to appear in new issues, and commit the changes.
+Select the &ldquo;Issues&rdquo; tab then &ldquo;New Issue&rdquo; to test your template.
+This method doesn&rsquo;t allow you to customize the issue title or add labels.</p>
+
+<p><img src="../../../../images/issue-template-file.png" alt="issue template file" /></p>
+
+<h2>Creating a link</h2>
+
+<p>Here&rsquo;s how to create a customized link that routes to a new, prefilled issue, overriding <code>ISSUE_TEMPLATE.md</code>.</p>
+
+<p>To create the link, you&rsquo;ll add your information a URL that conforms to this structure:</p>
+
+<p><code>https://github.com/ORG-NAME/REPO-NAME/issues/new?title=ADD-ENCODED-TITLE-HERE&amp;body=ADD-ENCODED-BODY-HERE&amp;labels=ADD-ENCODED-LABEL-HERE</code></p>
+
+<ol>
+<li>Copy the link above into a text editor and replace <code>ORG-NAME</code> and <code>REPO-NAME</code> with your org and repo names.</li>
+<li>Copy and paste the title you want into a <a href="http://meyerweb.com/eric/tools/dencoder/" rel="nofollow">URL Encoder</a> to translate that text into a URL. Select &ldquo;Encode&rdquo; and paste the result over <code>ADD-ENCODED-TITLE-HERE</code> in the URL.</li>
+<li>Do the same thing with the body of the issue, pasting it over <code>ADD-ENCODED-BODY-HERE</code> in the URL.</li>
+<li>Make sure any labels you want to apply already exist in the repo. Encode the name of the label (case sensitive!) and paste the result into <code>ADD-ENCODED-LABEL-HERE</code>. See the note below about using labels.</li>
+<li>Copy the URL into your browser to see the finished result. If everything looks good, add the link to the README in your repository, and whenever someone clicks on it they&rsquo;ll have a template ready to go!</li>
+</ol>
+
+<p>Here&rsquo;s an example of a completed issue template link:</p>
+
+<p><code>https://github.com/apaskulin/waxtechnical/issues/new?title=Add%20descriptive%20title%20here&amp;body=%23%23%23%20What%20happened%0A%0A%0A%0A%23%23%23%20What%20did%20you%20expect%20to%20happen%0A%0A%0A%0A%23%23%23%20Steps%20to%20reproduce%0A%0A&amp;labels=issue%20template</code></p>
+
+<h3>Labels</h3>
+
+<p>Labels in issue templates will only work for users with write access to your repository.
+Users without write access will still see the title and body of the issue template, but GitHub won&rsquo;t add the labels.</p>
+
+<p><strong>To add multiple labels to an issue template</strong>, add an encoded comma (<code>%2C</code>) between encoded label names.
+The resulting link structure is:</p>
+
+<p><code>https://github.com/ORG-NAME/REPO-NAME/issues/new?title=ADD-ENCODED-TITLE-HERE&amp;body=ADD-ENCODED-BODY-HERE&amp;labels=ADD-ENCODED-LABEL-HERE%2CADD-ENCODED-LABEL-HERE</code></p>
+
+<p>For example, for users with write access, this link adds the labels <code>issue template</code> and <code>bug</code>:</p>
+
+<p><code>https://github.com/apaskulin/waxtechnical/issues/new?title=Add%20descriptive%20title%20here&amp;body=%23%23%23%20What%20happened%0A%0A%0A%0A%23%23%23%20What%20did%20you%20expect%20to%20happen%0A%0A%0A%0A%23%23%23%20Steps%20to%20reproduce%0A%0A&amp;labels=issue%20template%2Cbug</code></p>
+
+<h3>Labels in GitHub Enterprise</h3>
+
+<p>To add multiple labels to an issue template in <strong>GitHub Enterprise</strong>, add <code>&amp;labels[]=</code> before each encoded label name.
+The resulting link structure is:</p>
+
+<p><code>https://github.com/ORG-NAME/REPO-NAME/issues/new?title=ADD-ENCODED-TITLE-HERE&amp;body=ADD-ENCODED-BODY-HERE&amp;labels[]=ADD-ENCODED-LABEL-HERE&amp;labels[]=ADD-ENCODED-LABEL-HERE</code></p>
+
+<h2>Feedback</h2>
+
+<p>If you have any feedback or questions about this guide, please <a href="https://github.com/apaskulin/waxtechnical/issues/new?title=Issue%20template%20feedback&amp;labels=issue%20template" rel="nofollow">create an issue</a>.</p>
+</section>
+<footer class='post-footer'>
+<section class='author'>
+<h4>
+<a href='/waxtechnical/author/alexandra-p/'>Alexandra P.</a>
+</h4>
+<p></p>
+Read
+<a href='/waxtechnical/author/alexandra-p/'>more posts</a>
+by this author.
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=How to Create Issue Templates in GitHub&amp;amp;url=http://www.example.com/2018/04/15/github-issue-templates/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://www.example.com/2018/04/15/github-issue-templates/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://www.example.com/2018/04/15/github-issue-templates/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+</article>
+</main>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Wax Technical</a>
+&copy;
+2018
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="../../../../javascripts/application.js"></script>
+</body>
+</html>
