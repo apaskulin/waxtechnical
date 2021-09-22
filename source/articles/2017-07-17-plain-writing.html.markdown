@@ -30,6 +30,8 @@ Publications with lists of words to avoid:
 - [Simple Words and Phrases by PLAIN](http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm)
 - [Writing Standards by the Federal Aviation Administration - 2003](https://www.faa.gov/documentlibrary/media/order/branding_writing/order1000_36.pdf)
 - [UK Plain English Campaign A to Z of alternative words](http://www.plainenglish.co.uk/files/alternative.pdf)
+- [Shorter, simpler words - King County](https://kingcounty.gov/help/editorial-style-guide/concisewriting/simplerwords.aspx)
+- [Simply Put : Words and phrases to avoid](http://www.simplyput.ie/words-and-phrases-to-avoid)
 
 ### Research
 
