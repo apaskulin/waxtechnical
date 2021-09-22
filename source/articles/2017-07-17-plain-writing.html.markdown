@@ -41,4 +41,10 @@ Publications with lists of words to avoid:
 
 - [Proselint](https://github.com/amperser/proselint)
 
+### Tools
+
+- [Hemingway Editor](http://www.hemingwayapp.com/)
+- [Upgoer 5](https://splasho.com/upgoer5/)
+- [Upgoer 6](https://splasho.com/upgoer6/)
+
 > [Add a resource on github](https://github.com/apaskulin/waxtechnical/blob/master/source/articles/2017-07-17-plain-writing.html.markdown)
